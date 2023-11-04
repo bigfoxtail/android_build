@@ -20,38 +20,39 @@
 # core_minimal.mk instead. If you care about wearables, you need to modify
 # core_tiny.mk in addition to core_minimal.mk.
 
+#    BlockedNumberProvider \
+#    BookmarkProvider \
+#    Calendar \
+#    CalendarProvider \
+#    DeskClock \
+#    Email \
+#    ExactCalculator \
+#    Exchange2 \
+#    PrintSpooler \
+#    PrintRecommendationService \
+#    ManagedProvisioning \
+#    FusedLocation \
+#    Contacts \
+#    Telecom \
+
 PRODUCT_PACKAGES += \
     BasicDreams \
-    BlockedNumberProvider \
-    BookmarkProvider \
-    Calendar \
-    CalendarProvider \
     CaptivePortalLogin \
     CertInstaller \
-    Contacts \
-    DeskClock \
     DocumentsUI \
     DownloadProviderUi \
-    Email \
-    ExactCalculator \
-    Exchange2 \
     ExternalStorageProvider \
-    FusedLocation \
     InputDevices \
     KeyChain \
     Keyguard \
     Launcher2 \
-    ManagedProvisioning \
     MtpDocumentsProvider \
     PacProcessor \
     libpac \
-    PrintSpooler \
-    PrintRecommendationService \
     ProxyHandler \
     Settings \
     SharedStorageBackup \
     StorageManager \
-    Telecom \
     TeleService \
     VpnDialogs \
     MmsService

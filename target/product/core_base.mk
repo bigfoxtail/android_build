@@ -16,11 +16,12 @@
 # Note that components added here will be also shared in PDK. Components
 # that should not be in PDK should be added in lower level like core.mk.
 
+#    UserDictionaryProvider \
+#    ContactsProvider \
+#    TelephonyProvider \
+
 PRODUCT_PACKAGES += \
-    ContactsProvider \
     DefaultContainerService \
-    TelephonyProvider \
-    UserDictionaryProvider \
     atrace \
     libandroidfw \
     libaudiopreprocessing \

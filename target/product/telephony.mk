@@ -17,11 +17,12 @@
 # This is the list of product-level settings that are specific
 # to products that have telephony hardware.
 
+#    CellBroadcastReceiver \
+
 PRODUCT_PACKAGES := \
     CarrierConfig \
     Dialer \
     CallLogBackup \
-    CellBroadcastReceiver \
     EmergencyInfo \
     rild
 

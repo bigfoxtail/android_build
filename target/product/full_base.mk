@@ -19,9 +19,10 @@
 # build of the emulator, but all those aspects can be overridden
 # in inherited configurations.
 
+#    WAPPushManager
+
 PRODUCT_PACKAGES := \
-    libfwdlockengine \
-    WAPPushManager
+    libfwdlockengine
 
 # Put zh_CN first in the list, so make it default.
 PRODUCT_LOCALES := zh_CN
@@ -34,7 +35,7 @@ PRODUCT_LOCALES := zh_CN
 
 ifeq ($(TARGET_LOCALES),)
 # Get a list of languages.
-$(call inherit-product, $(SRC_TARGET_DIR)/product/locales_full.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/locales_small.mk)
 else
 PRODUCT_LOCALES := $(TARGET_LOCALES)
 endif

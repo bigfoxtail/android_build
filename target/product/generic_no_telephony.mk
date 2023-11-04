@@ -17,6 +17,10 @@
 # This is a generic phone product that isn't specialized for a specific device.
 # It includes the base Android platform.
 
+#    OneTimeInitializer \
+#    Provision \
+#    EasterEgg \
+
 PRODUCT_PACKAGES := \
     Bluetooth \
     BluetoothMidiService \
@@ -24,10 +28,7 @@ PRODUCT_PACKAGES := \
     Gallery2 \
     Music \
     MusicFX \
-    OneTimeInitializer \
-    Provision \
     SystemUI \
-    EasterEgg \
     WallpaperCropper
 
 PRODUCT_PACKAGES += \
