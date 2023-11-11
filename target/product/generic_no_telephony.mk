@@ -20,6 +20,7 @@
 #    OneTimeInitializer \
 #    Provision \
 #    EasterEgg \
+#    WallpaperCropper
 
 PRODUCT_PACKAGES := \
     Bluetooth \
@@ -28,8 +29,7 @@ PRODUCT_PACKAGES := \
     Gallery2 \
     Music \
     MusicFX \
-    SystemUI \
-    WallpaperCropper
+    SystemUI
 
 PRODUCT_PACKAGES += \
     clatd \

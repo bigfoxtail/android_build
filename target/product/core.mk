@@ -34,6 +34,7 @@
 #    FusedLocation \
 #    Contacts \
 #    Telecom \
+#    TeleService \
 
 PRODUCT_PACKAGES += \
     BasicDreams \
@@ -53,7 +54,6 @@ PRODUCT_PACKAGES += \
     Settings \
     SharedStorageBackup \
     StorageManager \
-    TeleService \
     VpnDialogs \
     MmsService
 

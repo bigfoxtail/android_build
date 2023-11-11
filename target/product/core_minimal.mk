@@ -22,6 +22,9 @@ PRODUCT_BRAND := generic
 PRODUCT_DEVICE := generic
 PRODUCT_NAME := core
 
+#    HTMLViewer \
+#    WallpaperBackup \
+
 PRODUCT_PACKAGES += \
     BackupRestoreConfirmation \
     CtsShimPrebuilt \
@@ -29,13 +32,11 @@ PRODUCT_PACKAGES += \
     DownloadProvider \
     ExtShared \
     ExtServices \
-    HTMLViewer \
     MediaProvider \
     MoKeePackageInstaller \
     SettingsProvider \
     Shell \
     StatementService \
-    WallpaperBackup \
     bcc \
     bu \
     com.android.future.usb.accessory \
