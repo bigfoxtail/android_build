@@ -35,6 +35,7 @@
 #    Contacts \
 #    Telecom \
 #    TeleService \
+#    MmsService
 
 PRODUCT_PACKAGES += \
     BasicDreams \
@@ -54,7 +55,6 @@ PRODUCT_PACKAGES += \
     Settings \
     SharedStorageBackup \
     StorageManager \
-    VpnDialogs \
-    MmsService
+    VpnDialogs
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_base.mk)
